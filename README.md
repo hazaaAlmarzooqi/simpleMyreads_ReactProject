@@ -104,10 +104,10 @@ The application uses **React's \`useState\` hook** to manage the state of the bo
 Here you can add some screenshots of the app for visual reference:
 
 - **Main Page**:
-![Main Page Screenshot](./screenshots/mainpage.png)
+![Main Page Screenshot](./mainpage.PNG)
 
 - **Search Page**:
-![Search Page Screenshot](./screenshots/searchpage.png)
+![Search Page Screenshot](./searchpage.PNG)
 
 ---
 
