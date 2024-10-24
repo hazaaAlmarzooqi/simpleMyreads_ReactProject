@@ -2,7 +2,7 @@
 # MyReads App
 
 ### Description
-A simple app that allows users to organize their books into different categories.
+A simple app that allows users to organize their books in categories.
 
 ### Features
 - View books in different shelves based on their reading status (Currently Reading, Want to Read, Read).
@@ -17,71 +17,66 @@ A simple app that allows users to organize their books into different categories
 ### Prerequisites
 To run this project locally, you need to have:
 - **Node.js** installed (preferably the latest version).
-- **npm** or **yarn** package manager installed.
+- **npm** installed.
 
 ### Clone the repository:
-\`\`\`bash
-git clone https://github.com/hazaaAlmarzooqi/myreads.git
+git clone https://github.com/hazaaAlmarzooqi/simpleMyreads_ReactProject.git
+
 cd myreads
-\`\`\`
 
 ### Install dependencies:
-To install all the required dependencies for the project, run:
-\`\`\`bash
-npm install
-\`\`\`
-or
-\`\`\`bash
-yarn install
-\`\`\`
+To install all the required dependencies for the project, use
+**npm install**
 
 ### Running the Application
 
 To run the development server locally:
-\`\`\`bash
-npm start
-\`\`\`
-or
-\`\`\`bash
-yarn start
-\`\`\`
+**npm start**
 
 Once the development server starts, open your browser and navigate to:
-\`\`\`
-http://localhost:3000
-\`\`\`
+**http://localhost:3000**
+
 
 ---
 
 ## Project Structure
 
-\`\`\`bash
 myreads/
+
 ├── public/             # Public folder for static files
+
 ├── src/
+
 │   ├── components/     # Reusable React components
+
 │   ├── pages/          # Main pages like MainPage and SearchBooks
+
 │   ├── App.js          # Main app entry point
+
 │   ├── App.css         # Global app styles
+
 │   ├── index.js        # Entry point for React app
+
 │   ├── data.js         # Book data or other utilities
+
 ├── package.json        # Project dependencies and scripts
+
 └── README.md           # Project documentation
-\`\`\`
+
 
 ### Main Components
 
 - **MainPage**: The homepage where users can view their books categorized into shelves.
 - **SearchBooks**: The search page where users can find new books to add to their collection.
-- **Book**: The individual book component that displays a book's details (title, author, image) and allows the user to change its shelf.
+- **Book**: The individual book component that displays a book's details (title, author, image).
 
 ---
 
 ## Usage
 
 1. **Main Page**: 
-   - On the main page, books are categorized into three sections: _Currently Reading_, _Want to Read_, and _Read_.
-   - You can move books between shelves by selecting the desired shelf from the dropdown menu.
+   - On the main page, books are categorized into three sections: **Currently Reading**, **Want to Read**, and **Read**.
+   - You can move books by selecting the desired shelf from the dropdown menu.
 
 2. **Search Page**: 
    - Navigate to the search page by clicking the "Search Books" button.
@@ -109,10 +104,10 @@ The application uses **React's \`useState\` hook** to manage the state of the bo
 Here you can add some screenshots of the app for visual reference:
 
 - **Main Page**:
-![Main Page Screenshot](./mainpage.png)
+![Main Page Screenshot](./screenshots/mainpage.png)
 
 - **Search Page**:
-![Search Page Screenshot](./searchpage.png)
+![Search Page Screenshot](./screenshots/searchpage.png)
 
 ---
 
