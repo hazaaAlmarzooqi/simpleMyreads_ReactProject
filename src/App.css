@@ -1,0 +1,116 @@
+/* src/App.css */
+.app {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.bookshelf h2 {
+  font-size: 1.5em;
+  margin-bottom: 1em;
+}
+
+.bookshelf {
+  width: 100%;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.books-grid {
+  display: flex;
+  gap: 6px;
+}
+
+.book-author {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 3px;
+  margin-top: 6px;
+}
+
+.book-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 6px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+  border: 1px solid #ccc;
+  width: 150px;
+  margin: 8px;
+  text-align: center;
+}
+
+.book img {
+  width: 128px;
+  height: 193px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.search-button-container {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.search-button-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 100px;
+}
+
+.search-button-container button:hover {
+  background-color: #45a049;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.back-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 150px;
+  margin-top: 100px;
+}
+
+.back-button:hover {
+  background-color: #4CAF50;
+}
+
+.search-input {
+  width: 80%;
+  max-width: 400px;
+  padding: 10px;
+  margin: 20px auto;
+  display: block;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+}
